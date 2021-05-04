@@ -37,7 +37,7 @@ a{
     margin-left: 10%;
 }
 
-a.tamfonte {
+.tamfonte {
 	background-color: #f9f9f9;
 	color: #000000;
 	text-decoration: none;
@@ -66,7 +66,7 @@ a.contraste {
 }
 
 .logo{
-    font-size: 1.2rem;
+    font-size: 1.2em;
     text-shadow: 1px 1px black;
     margin-left: 10%;
 }
@@ -101,7 +101,7 @@ a.contraste {
 }
 
 .header p{
-    font-size: 1.25rem;
+    font-size: 1.25em;
 }
 
 .container {
@@ -126,7 +126,7 @@ a.contraste {
     padding: 2%;
     text-align: center;
     margin: 2% 1% 0 1%;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 .box{
@@ -141,7 +141,7 @@ a.contraste {
     padding: 2%;
     text-align: center;
     margin: 1.5% 2% 0 2%;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 .box a{
@@ -149,7 +149,7 @@ a.contraste {
 }
 
 .box i{
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 10%;
 }
 
@@ -212,7 +212,7 @@ a.contraste {
 
 .box_info i{
     margin-right: 10px;
-    font-size: 1.75rem;
+    font-size: 1.75em;
 }
 
 .box_info h2{
