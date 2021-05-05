@@ -243,3 +243,20 @@ footer p{
     text-align: center;
     padding: 2% 0 1% 0;
 }
+
+.audio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.audio__titulo {
+    margin-bottom: 10px;
+}
+
+.audio__player {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}

@@ -52,9 +52,19 @@
         <p>Nessa seleção separamos as melhores dicas de São Paulo para você.</p>
     </header>
 
+    <section class="assistente__libras">
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+    </section>
+    
+    
     <main>
         <article class="container">
-            
+
            <div class="box calendario"><a href="#box_calendario">Quando Ir<br><i class="far fa-calendar-alt" alt="Ícone calendário" title="Ícone calendário"></i></a></div>
 
             <div class="box termometro"><a href="#box_termometro">Temperatura média anual<br><i class="fas fa-temperature-high" alt="Ícone Termômetro" title="Ícone Termômetro"></i></a></div>
@@ -154,11 +164,21 @@
             </div>
         </article>
     </main>
+    <section class="audio">
+        <p class="audio__titulo">Conversão da página para áudio</p>
+        <audio controls class="audio__player">
+            <source src="./audio/leitura_pagina.mp3" type="audio/mp3">
+            <p>Seu navegador não suporta áudio</p>
+        </audio>
+    </section>
     <footer>
         <h3>Projeto Traveller</h3>
         <p>Contato: +55 11 98386-1812<br>E-mail: rm86633@fiap.com.br<br>Endereço: Rua Arlindo Veiga dos Santos, n° 25</p>
         <p>Todos os direitos reservados</p>
     </footer>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
-
 </html>
