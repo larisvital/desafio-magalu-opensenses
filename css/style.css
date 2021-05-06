@@ -1,5 +1,43 @@
+:root {
+    --body-bg: #F1F1F1;
+    --body-color: #000000;
+    --tamfonte-bg: #f9f9f9;
+    --menup-bg: #0E61AD;
+    --header-bg: #5690c5;
+    --header-color: #f1f1f1;
+    --box-bg: #fff;
+    --box-bs: #757575;
+    --bos-color: #000000;
+    --footer-color: #ffffff;
+    }
+       
+.dark-mode:root {
+    --body-bg: #000000;
+    --body-color: #FDFDFD;
+    --tamfonte-bg: #f9f9f9;
+    --menup-bg: #103A61;
+    --header-bg: #0A2237;
+    --header-color: #f1f1f1;
+    --box-bg: #0A2237;
+    --box-bs: #757575;
+    --box-color: #FDFDFD;
+    }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+.light-mode:root {
+    --body-bg: #F1F1F1;
+    --body-color: #000000;
+    --tamfonte-bg: #f9f9f9;
+    --menup-bg: #0E61AD;
+    --header-bg: #0D76D6;
+    --header-color: #f1f1f1;
+    --box-bg: #fff;
+    --box-bs: #757575;
+    --bos-color: #000000;
+    --footer-color: #ffffff;
+    }
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 *{
     margin: 0;
@@ -10,17 +48,18 @@
 body{
     font-family:'Poppins', sans-serif;
     font-size: 16px;
-    background-color: #F1F1F1;
+    background-color: var(--body-bg);
     font-weight: 300;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--body-color);
 }
 
 .menu_acessivel{
-    background-color: #F1F1F1;
+    background-color: var(--body-bg);
+    color: var(--body-color) ;
     width: 100%;
     height: 8vh;
     position: fixed;
@@ -38,11 +77,11 @@ a{
 }
 
 .tamfonte {
-	background-color: #f9f9f9;
+	background-color: var(--tamfonte-bg);
 	color: #000000;
 	text-decoration: none;
 	padding: 0.5% 0.65%;
-	border: 1px solid rgb(0, 0, 0);
+	border: 1px solid #000000;
 	border-radius: 50%;
 	font-weight: bold;
     margin: 0.25% 0 0.25% 1.5%;
@@ -53,11 +92,11 @@ a.contraste {
 }
 
 .menu_principal {
-    background-color: #0E61AD;
+    background-color: var(--menup-bg);
     width: 100%;
     height: 8vh;
     margin-top: 8vh;
-    color: white;
+    color: var(--box-bg);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -67,8 +106,9 @@ a.contraste {
 
 .logo{
     font-size: 1.2em;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px #000000;
     margin-left: 10%;
+    color: var(--header-color);
 }
 
 .menu_item {
@@ -82,15 +122,15 @@ a.contraste {
 }
 
 .menu_item a{
-    color: white;
+    color: var(--header-color);
     font-weight: 600;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px #000000;
 }
 
 .header{
-    background-color: #0D76D6;
-    text-shadow: 1px 1px black;
-    color: white;
+    background-color: var(--header-bg);
+    text-shadow: 1px 1px #000000;
+    color: var(--header-color);
     width: 100%;
     height: 35vh;
     padding-top: 15vh;
@@ -113,7 +153,7 @@ a.contraste {
     justify-content: center;
     flex-wrap: wrap;
 }
-
+/* 
 .box_acessibilidade{
     border: 1px solid green;
     background-color: #007F42;
@@ -127,11 +167,11 @@ a.contraste {
     text-align: center;
     margin: 2% 1% 0 1%;
     font-size: 1.1em;
-}
+} */
 
 .box{
-    background-color: white;
-    box-shadow: 1px 4px 5px 0 rgb(117, 117, 117);
+    background-color: var(--box-bg);
+    box-shadow: 1px 4px 5px 0 var(--box-bs);
     width: 15%;
     height: 45%;
     display: flex;
@@ -145,7 +185,7 @@ a.contraste {
 }
 
 .box a{
-    color: black;
+    color: var(--body-color);
 }
 
 .box i{
@@ -195,12 +235,12 @@ a.contraste {
 }
 
 .box_info{
-    color: black;
+    color: var(--body-color);
     margin-bottom: 5%;
     padding: 10% 5%;
     line-height: 175%;
     font-weight: 400;
-    background-color: white;
+    background-color: var(--box-bg);
     margin: 5% 4%;
     text-align: justify;
 }
@@ -228,18 +268,18 @@ a.contraste {
 }
 
 footer{
-    background-color: #0E61AD;
+    background-color: var(--menup-bg);
     width: 100%;  
 }
 
 footer h3{
-    color: white;
+    color: var(--footer-color);
     text-align: center;
     padding-top: 2%;
 }
 
 footer p{
-    color: white;
+    color: var(--footer-color);
     text-align: center;
     padding: 2% 0 1% 0;
 }

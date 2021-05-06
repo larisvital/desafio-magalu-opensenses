@@ -23,4 +23,23 @@ window.onload = function() {
         }
         
     });
+
+    var changeMode = document.querySelector('html');
+    var changeDarkMode = document.getElementById('darkmode');
+    var changeLightMode = document.getElementById('lightmode');
+        
+    // Evento de click para alterar para dark-mode
+    changeDarkMode.addEventListener('click', function(event) {
+        if(changeMode.className!='dark-mode'){
+            changeMode.classList.toggle('dark-mode') 
+            changeMode.classList.remove('light-mode')
+        }              
+    });
+    // Evento de click para alterar para light-mode
+    changeLightMode.addEventListener('click', function(event) {
+        if(changeMode.className=='dark-mode'){
+            changeMode.classList.toggle('light-mode')
+            changeMode.classList.remove('dark-mode')
+        }
+    });
 }
