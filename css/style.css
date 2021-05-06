@@ -284,3 +284,23 @@ footer p{
     justify-content: center;
     margin-bottom: 40px;
 }
+
+.recomendacao{
+    margin: 0 20% 10% 20%;
+    padding: 2.5%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(73, 73, 73);
+    background-color: white;
+}
+
+.recomendacao i{
+    color: rgb(255, 196, 0);
+    margin-top: 1%;
+}
+
+.visualizacoes{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+}
