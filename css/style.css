@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 :root {
     --body-bg: #F1F1F1;
     --body-color: #000000;
@@ -35,9 +37,6 @@
     --bos-color: #000000;
     --footer-color: #ffffff;
     }
-    
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 *{
     margin: 0;
@@ -144,6 +143,7 @@ a.contraste {
 
 .header p{
     font-size: 1.25em;
+    font-weight: 400;
 }
 
 .container {
@@ -155,21 +155,6 @@ a.contraste {
     justify-content: center;
     flex-wrap: wrap;
 }
-/* 
-.box_acessibilidade{
-    border: 1px solid green;
-    background-color: #007F42;
-    color: white;
-    width: 13%;
-    height: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-    text-align: center;
-    margin: 2% 1% 0 1%;
-    font-size: 1.1em;
-} */
 
 .box{
     background-color: var(--box-bg);
@@ -184,6 +169,7 @@ a.contraste {
     text-align: center;
     margin: 1.5% 2% 0 2%;
     font-size: 1.1em;
+    font-weight: 400;
 }
 
 .box a{
@@ -245,11 +231,6 @@ a.contraste {
     background-color: var(--box-bg);
     margin: 5% 4%;
     text-align: justify;
-}
-
-.box_info a{
-    font-weight: 600;
-    text-decoration: underline;
 }
 
 .box_info i{
