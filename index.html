@@ -20,8 +20,9 @@
     <!-- MENU ACESSÍVEL -->
     <nav class="menu_acessivel">
         <ul class="menu">
-            <li class="menu_option">Ir para o conteúdo</li>
-            <li class="menu_option">Ir para o menu</li>
+            <li class="menu_option"> <a href="#conteudo" id="irDiretoConteudo">Ir para o conteúdo</a> </li>
+            <li class="menu_option"> <a href="#menu" id="irDiretoMenu">Ir para o menu</a> </li>
+            <li class="menu_option"> <a href="#audio" id="irDiretoAudio">Ir para o áudio</a> </li>
             <li class="menu_option">Tamanho da fonte</li>
             <a href="#" class="tamfonte" id="aumentartamfonte" title="Aumentar Tamanho do Texto">A+</a>
             <a href="#" class="tamfonte" id="diminuirtamfonte" title="Tamanho do Texto Normal">A-</a>
@@ -46,6 +47,8 @@
             <p><a href="#">Contato</a></p>
         </div>
     </nav>
+    
+    <a name="menu"></a>
 
     <header class="header">
         <h2>Dicas Úteis</h2>
@@ -61,7 +64,7 @@
         </div>
     </section>
     
-    
+    <a name="menu"></a>
     <main>
         <article class="container">
 
@@ -86,6 +89,8 @@
             <div class="box trem"><a href="#box_trem">Como se locomover<br><i class="fas fa-subway" alt="Ícone Trem" title="Ícone Trem"></i></a></div>
 
         </article>
+
+        <a name="conteudo"></a>
 
         <article>
             <div class="box_info calendario" id="box_calendario">
@@ -164,6 +169,7 @@
             </div>
         </article>
     </main>
+    <a name="audio"></a>
     <section class="audio">
         <p class="audio__titulo">Conversão da página para áudio</p>
         <audio controls class="audio__player">

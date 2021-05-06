@@ -3,7 +3,7 @@
     --body-color: #000000;
     --tamfonte-bg: #f9f9f9;
     --menup-bg: #0E61AD;
-    --header-bg: #5690c5;
+    --header-bg: #0D76D6;
     --header-color: #f1f1f1;
     --box-bg: #fff;
     --box-bs: #757575;
@@ -70,10 +70,12 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    margin-right: 3%;
 }
 
 .menu_option {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .tamfonte {
@@ -293,6 +295,7 @@ footer p{
 
 .audio__titulo {
     margin-bottom: 10px;
+    color: var(--body-color);
 }
 
 .audio__player {
