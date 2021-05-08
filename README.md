@@ -1,5 +1,5 @@
-# desafio-fiap-opensenses
-<h3>Desafio FIAP - Open Senses</h3><br>
+# desafio-magalu-opensenses
+<h3>Desafio FIAP - Magalu & Open Senses</h3><br>
 O cenário "Dicas Úteis" foi escolhido para este desafio, seguindo o Product Backlog da aluna Larissa Vital.<br>
 Focamos na acessibilidade da página, conforme as diretrizes abaixo:<br>
 1 - Escolhemos a cor azul como paleta de cor majortitaria do nosso site, pois a maior parte dos daltônicos enxergam esta cor sem perda expressiva.<br>
